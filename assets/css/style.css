@@ -1,0 +1,150 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.link:hover{
+	text-decoration:none;
+}
+.user-image {
+	margin:26px auto;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	max-height:100px;
+	max-width:100px;
+}
+.nav-drop{
+	color:white;
+	background-color:#3c3b3b;
+	padding:2%;
+	list-style:none;
+	margin-left:-18%;
+}
+.nav-drop:hover{
+	background-color:#B40101;
+}
+.nav-drop > a{
+	text-decoration:none;
+	color:white;
+	font-size:11pt;
+}
+.navbar-cls-top .navbar-brand {
+	color: #fff;
+	background: #920c0c;
+	width: 260px;
+	text-align: center;
+	height: 58px;
+	font-size: 30px;
+	font-weight: 700;
+}
+.active-menu {
+    background-color:#920c0c!important;
+}
+
+.arrow {
+    float: right;
+}
+
+.fa.arrow:before {
+    content: "\f104";
+}
+
+.active > a > .fa.arrow:before {
+    content: "\f107";
+}
+
+.sidebar-collapse , .sidebar-collapse .nav{
+	background:none;
+}
+.sidebar-collapse .nav {
+	padding:0;
+}
+.sidebar-collapse .nav > li > a {
+	color:#fff;
+	background:#202020;
+	text-shadow:none;
+	
+}
+.sidebar-collapse > .nav > li > a {
+	padding:10px 10px;
+}
+.sidebar-collapse > .nav > li {
+	border-bottom: 1px solid rgba(107, 108, 109, 0.19);
+}
+.sidebar-collapse .nav > li > a:hover,
+.sidebar-collapse .nav > li > a:focus {
+	
+	background:#0A0A0A;
+	outline:0;
+}
+.navbar-side {
+	border:none;
+	background-color: #3c3b3b;
+	margin-top:5%;
+}
+.navbar-cls-top {
+	background:#920c0c;
+	border-bottom:none;
+	
+}
+.navbar-cls-top .navbar-brand:hover {
+background: #C90000;
+color:#fff;
+}
+
+.navbar-default {
+border:0px solid black;
+     
+}
+.navbar-header {
+    background: #A70303;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+background-color: #B40101;
+}
+.navbar-default .navbar-toggle {
+border-color: #fff;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+background-color: #FFF;
+}
+.nav > li > a > i {
+    margin-right:10px;
+}
+.position{
+    margin-left: 30%;
+    margin-top: 13%;
+}
+.warlogin{
+    padding-top: 2%; 
+    padding-bottom: 2%;
+    background-color: #920c0c; 
+    margin-bottom: 0px; 
+    color:#fff; 
+    text-align: center; 
+    font-size:20pt;
+}
+.panel{
+    border-radius:0px !important; 
+}
+ @media(min-width:768px) {
+     #page-wrapper{
+        margin: 0 0 0 260px;
+        padding: 15px 30px;		
+    }
+	
+    .navbar-side {
+        z-index: 1;
+        position: absolute;
+        width: 260px;
+        float:none;
+        position:fixed;
+		margin-top:4%;
+    }
+
+   .navbar {
+ border-radius: 0px; 
+}
+   
+}
+
+

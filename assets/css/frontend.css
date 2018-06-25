@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,700');
+ body {font-family: 'work sans',arial,sans-serif; font-size: 15px; text-rendering: optimizeLegibility;  overflow-x: hidden;}
+
+/*Navbar css*/
+.navbar-default {
+    background-color: #bd0000 !important;
+    border: #920101;
+    border-radius:0px;
+    margin-bottom: 0px;
+}
+.nav li a{
+	color:#fff !important;
+	font-size: 17px;
+	/*font-weight: bold;*/
+}
+
+.navbar ul li a:hover {
+    display: block;
+    background-color: #620101 !important;
+    color: #fff !important;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color: #555;
+    background-color: #bd2c2c;
+}
+.dropdown-menu {
+	color:#fff;
+    background-color: #bf3c3c;
+    border: none !important;
+}
+/*Slide*/
+.section-slide{
+	padding:0px;
+	margin:0px;
+}
+/*content sidebar*/
+.section{
+	background-color: #bd0000;
+	width:100%;
+	height:35px;
+}
+.section-grid{
+	background-color: #cec6c6  ;
+	margin-top: 8px;
+	width:100%;
+	height:auto;
+	border:1px solid #e0e0e0;
+	/*box-shadow: 1px 1px 1px 1px;*/
+}
+.judul{
+	background-color:#bd0000;
+	padding: 1px;
+	margin-top: 1%;
+
+}
+.jarform{
+	width:90%; 
+	margin-left:4%;
+ 	margin-top:2%;
+}
+.btn-danger {
+	font-size: 15px;
+    color: #fff;
+    background-color: #bd0000;
+    border-color:#bd0000;
+}
+/*conten berita*/
+.link{
+	margin-top: 0px;
+	 color:orange;
+	  font-size: 30px;
+}
+.link:hover{
+	text-decoration: none;
+	color:#e4a229;
+}
+
+.footer{
+	background-color: #920101;
+	width: 100%;
+	height: 35px;
+	margin-top: 10px;
+	text-align: center;
+}
+.section-struk{
+	background-color: #920101;
+	width: 35%;
+	height: 40px;
+}
+/*content peraturan*/
+.PerBody{
+	list-style: none;
+}
+.PerBody a{
+	text-decoration: none;
+	color :#000;	
+}
+.PerBody a:hover{
+	color:orange;	
+}
+.list-group{
+	border-radius:0px;
+}
